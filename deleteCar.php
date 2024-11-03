@@ -1,5 +1,5 @@
-<?php require_once '../core/dbConfig.php'; ?>
-<?php require_once '../core/models.php'; ?>
+<?php require_once '../C/dbConfig.php'; ?>
+<?php require_once '../C/models.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
