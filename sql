@@ -1,4 +1,4 @@
-Create table cars (
+Create table car (
 car_id INT AUTO_INCREMENT PRIMARY KEY,
     make VARCHAR(50) NOT NULL,
     model VARCHAR(50) NOT NULL,
@@ -12,5 +12,5 @@ service_id INT AUTO_INCREMENT PRIMARY KEY,
     service_type VARCHAR(100) NOT NULL,
     service_date DATE NOT NULL,
     service_cost DECIMAL(10, 2) NOT NULL,
-    FOREIGN KEY (car_id) REFERENCES cars(car_id) ON DELETE CASCADE
+    FOREIGN KEY (car_id) REFERENCES car(car_id) ON DELETE CASCADE
 );
